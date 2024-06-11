@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payback Period Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Payback Period Calculator</h1>
+    <h2 class="text-center">Model</h2>
+    <div class="d-flex justify-content-center mt-4">
+      <select id="modelSelector" class="form-control w-50">
+        <option value="">Select a model</option>
+        <option value="model1.html">On-grid PV where solar power is a fraction of electricity demand</option>
+        <option value="model2.html">On-grid PV where solar power is in excess than electricity demand</option>
+        <option value="model3.html">Battery + PV where battery is charged through excess solar</option>
+      </select>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
